@@ -1,0 +1,103 @@
+[
+    { "name": "Taj Bengal", "location": "Kolkata", "rooms": 120, "rating": 4.8 ,"bookings":[]},
+    { "name": "Oberoi Grand", "location": "Kolkata", "rooms": 95, "rating": 4.7 ,"bookings":[]},
+    { "name": "ITC Sonar", "location": "Kolkata", "rooms": 110, "rating": 4.6 ,"bookings":[]},
+    { "name": "The Park", "location": "Kolkata", "rooms": 85, "rating": 4.4 ,"bookings":[]},
+    { "name": "JW Marriott", "location": "Kolkata", "rooms": 150, "rating": 4.9 ,"bookings":[]},
+    
+    { "name": "Leela Palace", "location": "Bengaluru", "rooms": 180, "rating": 4.9 ,"bookings":[]},
+    { "name": "Taj West End", "location": "Bengaluru", "rooms": 130, "rating": 4.8 ,"bookings":[]},
+    { "name": "ITC Windsor", "location": "Bengaluru", "rooms": 105, "rating": 4.7 ,"bookings":[]},
+    { "name": "Shangri-La", "location": "Bengaluru", "rooms": 140, "rating": 4.6 ,"bookings":[]},
+    { "name": "The Ritz-Carlton", "location": "Bengaluru", "rooms": 125, "rating": 4.9 ,"bookings":[]},
+  
+    { "name": "The Oberoi", "location": "Mumbai", "rooms": 200, "rating": 4.9 ,"bookings":[]},
+    { "name": "Taj Mahal Palace", "location": "Mumbai", "rooms": 150, "rating": 4.9 ,"bookings":[]},
+    { "name": "ITC Maratha", "location": "Mumbai", "rooms": 160, "rating": 4.7 ,"bookings":[]},
+    { "name": "Sahara Star", "location": "Mumbai", "rooms": 180, "rating": 4.6 ,"bookings":[]},
+    { "name": "St. Regis", "location": "Mumbai", "rooms": 170, "rating": 4.8 ,"bookings":[]},
+  
+    { "name": "The Imperial", "location": "Delhi", "rooms": 130, "rating": 4.8 ,"bookings":[]},
+    { "name": "Taj Palace", "location": "Delhi", "rooms": 200, "rating": 4.9 ,"bookings":[]},
+    { "name": "The Leela", "location": "Delhi", "rooms": 150, "rating": 4.7 ,"bookings":[]},
+    { "name": "Shangri-La Eros", "location": "Delhi", "rooms": 170, "rating": 4.6 ,"bookings":[]},
+    { "name": "ITC Maurya", "location": "Delhi", "rooms": 190, "rating": 4.9 ,"bookings":[]},
+  
+    { "name": "Hyatt Regency", "location": "Chennai", "rooms": 140, "rating": 4.7 ,"bookings":[]},
+    { "name": "ITC Grand Chola", "location": "Chennai", "rooms": 180, "rating": 4.9 ,"bookings":[]},
+    { "name": "Taj Coromandel", "location": "Chennai", "rooms": 160, "rating": 4.8 ,"bookings":[]},
+    { "name": "The Raintree", "location": "Chennai", "rooms": 100, "rating": 4.6 ,"bookings":[]},
+    { "name": "The Park Chennai", "location": "Chennai", "rooms": 120, "rating": 4.5 ,"bookings":[]},
+  
+    { "name": "The Westin", "location": "Hyderabad", "rooms": 150, "rating": 4.8 ,"bookings":[]},
+    { "name": "Taj Krishna", "location": "Hyderabad", "rooms": 160, "rating": 4.9 ,"bookings":[]},
+    { "name": "Park Hyatt", "location": "Hyderabad", "rooms": 130, "rating": 4.7 ,"bookings":[]},
+    { "name": "ITC Kakatiya", "location": "Hyderabad", "rooms": 170, "rating": 4.6 ,"bookings":[]},
+    { "name": "Novotel HICC", "location": "Hyderabad", "rooms": 180, "rating": 4.5 ,"bookings":[]},
+  
+    { "name": "Grand Hyatt", "location": "Pune", "rooms": 150, "rating": 4.8 ,"bookings":[]},
+    { "name": "Conrad", "location": "Pune", "rooms": 140, "rating": 4.7 ,"bookings":[]},
+    { "name": "JW Marriott", "location": "Pune", "rooms": 180, "rating": 4.9 ,"bookings":[]},
+    { "name": "The Westin", "location": "Pune", "rooms": 170, "rating": 4.6 ,"bookings":[]},
+    { "name": "Sheraton Grand", "location": "Pune", "rooms": 120, "rating": 4.5 ,"bookings":[]},
+  
+    { "name": "Radisson Blu", "location": "Ahmedabad", "rooms": 140, "rating": 4.6 ,"bookings":[]},
+    { "name": "Courtyard by Marriott", "location": "Ahmedabad", "rooms": 130, "rating": 4.5 ,"bookings":[]},
+    { "name": "Hyatt Regency", "location": "Ahmedabad", "rooms": 160, "rating": 4.7 ,"bookings":[]},
+    { "name": "Taj Skyline", "location": "Ahmedabad", "rooms": 180, "rating": 4.8 ,"bookings":[]},
+    { "name": "The Fern", "location": "Ahmedabad", "rooms": 150, "rating": 4.6 ,"bookings":[]},
+
+    { "name": "The Lalit", "location": "Delhi", "rooms": 200, "rating": 4.7 ,"bookings":[]},
+    { "name": "Roseate House", "location": "Delhi", "rooms": 150, "rating": 4.8 ,"bookings":[]},
+    { "name": "Vivanta", "location": "Delhi", "rooms": 130, "rating": 4.6 ,"bookings":[]},
+    { "name": "Eros Hotel", "location": "Delhi", "rooms": 120, "rating": 4.5 ,"bookings":[]},
+    { "name": "Pullman", "location": "Delhi", "rooms": 180, "rating": 4.7 ,"bookings":[]},
+  
+    { "name": "The Chancery Pavilion", "location": "Bengaluru", "rooms": 170, "rating": 4.5 ,"bookings":[]},
+    { "name": "Radisson Blu Atria", "location": "Bengaluru", "rooms": 150, "rating": 4.6 ,"bookings":[]},
+    { "name": "Fairfield by Marriott", "location": "Bengaluru", "rooms": 130, "rating": 4.4 ,"bookings":[]},
+    { "name": "The Gateway Hotel", "location": "Bengaluru", "rooms": 160, "rating": 4.7 ,"bookings":[]},
+    { "name": "Sheraton Grand", "location": "Bengaluru", "rooms": 140, "rating": 4.6 ,"bookings":[]},
+  
+    { "name": "Grand Hyatt", "location": "Mumbai", "rooms": 210, "rating": 4.8 ,"bookings":[]},
+    { "name": "The St. Regis", "location": "Mumbai", "rooms": 190, "rating": 4.9 ,"bookings":[]},
+    { "name": "Four Seasons", "location": "Mumbai", "rooms": 160, "rating": 4.7 ,"bookings":[]},
+    { "name": "Trident Nariman Point", "location": "Mumbai", "rooms": 180, "rating": 4.6 ,"bookings":[]},
+    { "name": "The Leela", "location": "Mumbai", "rooms": 170, "rating": 4.9 ,"bookings":[]},
+  
+    { "name": "The Westin", "location": "Chennai", "rooms": 160, "rating": 4.7 ,"bookings":[]},
+    { "name": "Radisson Blu", "location": "Chennai", "rooms": 150, "rating": 4.6 ,"bookings":[]},
+    { "name": "Green Park Hotel", "location": "Chennai", "rooms": 140, "rating": 4.5 ,"bookings":[]},
+    { "name": "The Accord Metropolitan", "location": "Chennai", "rooms": 130, "rating": 4.4 ,"bookings":[]},
+    { "name": "GRT Grand", "location": "Chennai", "rooms": 120, "rating": 4.3 ,"bookings":[]},
+  
+    { "name": "Novotel", "location": "Hyderabad", "rooms": 140, "rating": 4.6 ,"bookings":[]},
+    { "name": "The Golkonda", "location": "Hyderabad", "rooms": 130, "rating": 4.4 ,"bookings":[]},
+    { "name": "Radisson Hyderabad", "location": "Hyderabad", "rooms": 120, "rating": 4.5 ,"bookings":[]},
+    { "name": "Ellaa Hotel", "location": "Hyderabad", "rooms": 110, "rating": 4.3 ,"bookings":[]},
+    { "name": "Avasa Hotel", "location": "Hyderabad", "rooms": 150, "rating": 4.7 ,"bookings":[]},
+  
+    { "name": "JW Marriott", "location": "Pune", "rooms": 200, "rating": 4.9 ,"bookings":[]},
+    { "name": "Hyatt Pune", "location": "Pune", "rooms": 140, "rating": 4.7 ,"bookings":[]},
+    { "name": "Oakwood Residence", "location": "Pune", "rooms": 120, "rating": 4.5 ,"bookings":[]},
+    { "name": "The Corinthians Resort", "location": "Pune", "rooms": 130, "rating": 4.6 ,"bookings":[]},
+    { "name": "Sayaji Hotel", "location": "Pune", "rooms": 150, "rating": 4.7 ,"bookings":[]},
+  
+    { "name": "Lemon Tree Premier", "location": "Ahmedabad", "rooms": 130, "rating": 4.5 ,"bookings":[]},
+    { "name": "The Ummed", "location": "Ahmedabad", "rooms": 140, "rating": 4.6 ,"bookings":[]},
+    { "name": "Renaissance", "location": "Ahmedabad", "rooms": 120, "rating": 4.4 ,"bookings":[]},
+    { "name": "Crowne Plaza", "location": "Ahmedabad", "rooms": 150, "rating": 4.7 ,"bookings":[]},
+    { "name": "Hyatt Ahmedabad", "location": "Ahmedabad", "rooms": 180, "rating": 4.8 ,"bookings":[]},
+  
+    { "name": "Taj Club House", "location": "Chennai", "rooms": 170, "rating": 4.6 ,"bookings":[]},
+    { "name": "The Residency Towers", "location": "Chennai", "rooms": 140, "rating": 4.5 ,"bookings":[]},
+    { "name": "Taj Fisherman's Cove", "location": "Chennai", "rooms": 180, "rating": 4.8 ,"bookings":[]},
+    { "name": "ITC Grand Central", "location": "Mumbai", "rooms": 160, "rating": 4.7 ,"bookings":[]},
+    { "name": "Taj Santacruz", "location": "Mumbai", "rooms": 150, "rating": 4.6 ,"bookings":[]},
+  
+    { "name": "The Pride Hotel", "location": "Bengaluru", "rooms": 140, "rating": 4.5 ,"bookings":[]},
+    { "name": "The Den", "location": "Bengaluru", "rooms": 130, "rating": 4.6 ,"bookings":[]},
+    { "name": "Hotel Royal Orchid", "location": "Bengaluru", "rooms": 150, "rating": 4.7 ,"bookings":[]},
+    { "name": "Oakwood Premier Prestige", "location": "Bengaluru", "rooms": 170, "rating": 4.8 ,"bookings":[]},
+    { "name": "Ibis Bengaluru", "location": "Bengaluru", "rooms": 180, "rating": 4.4 ,"bookings":[]}
+]  
