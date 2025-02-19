@@ -68,46 +68,65 @@ The server will run on: **http://localhost:3000**
 ## 🔥 API Endpoints
 
 ### 1 List all hotels
-**GET** `/hotels?location=<city>`
-- Fetch all hotels (optional filter by `location`).
+**GET** `/hotels?location=<city>&page=<page>`
+- Fetch all hotels (optional filter by `location` and `page`).
 - **Response:**
 ```json
+returns the first 10 hotels
 [
-  {
-    "_id": "hotel123",
-    "name": "Grand Palace",
-    "location": "New York",
-    "totalRooms": 100,
-    "bookings": []
-  }
+    {
+        "name": "ITC Grand Central",
+        "rooms": 160,
+        "rating": 4.7,
+        "bookings": []
+    },
+    {
+        "name": "Taj Santacruz",
+        "rooms": 150,
+        "rating": 4.6,
+        "bookings": []
+    }
 ]
 ```
 ### 2 Book a room
-**POST** `/book`
+**POST** `/book?userId=<userId>`
 - **Request Body:**
+- **Checks if checkin date is Valid**
+- **Checks if rooms are available**
+- **Once a room is booked it decrements the no of available rooms in the Hotel collection as well**
 ```json
 {
-  "hotelId": "hotel123",
-  "rooms": 2,
-  "checkIn": "2024-06-10",
-  "checkOut": "2024-06-15"
+    "hotelId" : "67b4bde3af39b03d01d9b02c",
+    "rooms": 2 ,
+    "checkIn":"2025-02-19",
+    "checkOut": "2025-02-20"
 }
 ```
 - **Response:**
 ```json
 {
-  "_id": "booking789",
-  "hotelId": "hotel123",
-  "userId": "test-user",
-  "rooms": 2,
-  "checkIn": "2024-06-10",
-  "checkOut": "2024-06-15"
+    "hotelId": "67b4bde3af39b03d01d9b02c",
+    "userId": "bunny",
+    "rooms": 2,
+    "checkIn": "2025-02-19T00:00:00.000Z",
+    "checkOut": "2025-02-20T00:00:00.000Z",
+    "_id": "67b562aba977f69a38e0cc8b",
+    "__v": 0
 }
 ```
 
 ### 3 View all bookings
-**GET** `/bookings`
-- Returns a list of bookings for the user.
+**GET** `/bookings?userId=<userId>`
+- Returns a list of bookings for a particular user.
+- **Response:**
+```json
+{
+    "hotelId": "67b4bde3af39b03d01d9b02c",
+    "rooms": 2,
+    "checkIn": "2025-02-19T00:00:00.000Z",
+    "checkOut": "2025-02-20T00:00:00.000Z"
+}
+```
 
 ### 4 Modify a booking
 **PUT** `/bookings/:id`
@@ -121,16 +140,20 @@ The server will run on: **http://localhost:3000**
 - **Response:**
 ```json
 {
-  "_id": "booking789",
-  "checkIn": "2024-06-12",
-  "checkOut": "2024-06-18"
+    "_id": "67b4b618ab86d51070f70a09",
+    "hotelId": "67b47f0297261ec20ee726e4",
+    "userId": "shiva",
+    "rooms": 2,
+    "checkIn": "2025-02-19T00:00:00.000Z",
+    "checkOut": "2025-02-20T00:00:00.000Z",
+    "__v": 0
 }
 ```
 
 ### 5 Cancel a booking
-**DELETE** `/bookings/:id`
+**POST** `/deletebooking?userId=<userId>`
 - Deletes a booking.
-- Updates the 
+- Updates the room count for that particular hotel
 
 ---
 
@@ -148,12 +171,11 @@ npm test
 ```json
 {
   "dependencies": {
-    "express": "^4.21.0",
-    "mongoose": "^6.0.0",
-    "body-parser": "^1.20.2",
-    "dotenv": "^16.3.1",
-    "node-cron": "^3.0.2",
-    "uuid": "^9.0.1"
+    "cron": "^3.5.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "node-cron": "^3.0.3"
   },
   "devDependencies": {
     "nodemon": "^3.0.2",
@@ -165,7 +187,8 @@ npm test
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Enhancements
+- Change Schema by **Adding Booking Array to keep track of multiple users and booking**.
 - Implement **authentication and user roles**.
 - Add **payment integration**.
 - Build a **frontend** to interact with the API.
